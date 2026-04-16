@@ -6,6 +6,7 @@ permalink: /resume/
 contact_name: "Katrina Saito"
 contact_email: "katrinasaito98@gmail.com"
 contact_location: "Los Angeles, CA"
+indexing: false
 ---
 
 <img src="/public/images/resume_preview.png" alt="Resume preview" class="resume-preview">

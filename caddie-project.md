@@ -5,6 +5,7 @@ feature_image: "/public/images/caddie_header.png"
 excerpt: ""
 layout: page
 permalink: /caddie-project/
+indexing: false
 ---
 
 Caddie is a portable, remotely operated UUV launch and recovery (L&R) system designed to eliminate the need for dive teams during operations. It is capable of surface and subsea operation and enables safe recovery in sea state 3+ with minimal risk to operators.

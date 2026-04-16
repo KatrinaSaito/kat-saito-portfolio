@@ -5,6 +5,7 @@ feature_text: |
   Mechatronics engineer specializing in electrical systems, sensor fusion, and system integration, from design through deployment.
 feature_image: "/public/images/20250212_082033.jpg"
 excerpt: "I take systems from concept to physical implementation through rapid prototyping, working across electrical, mechanical, and software domains."
+indexing: false
 ---
 
 I take systems from concept to physical implementation through rapid prototyping, working across electrical, mechanical, and software domains.
@@ -23,6 +24,7 @@ My background is in mechanical engineering with a focus on control systems and s
 - Developed and executed system-level validation and test procedures
 - Conducted field testing and resolved system-level faults in deployment environments
 - Coordinated with cross-functional teams and vendors during system development
+- Employed software version control via git and CAD version control via SOLIDWORKS PDM
 
 # Project Highlights
 
@@ -53,7 +55,7 @@ As a part of DARPA's Manta project, PacMar Technologies researched and developed
 <img src="/public/images/manta_testing.jpg" alt="Manta Testing Photo" class="manta-photo">
 <p><small>Manta Prototype Testing <sup>3</sup></small></p>
 
-Contributed to software development for the DARPA Manta project during a critical integration phase, enabling continued progress during an all-hands-on-deck effort.
+As a software engineer, I contributed to software development for the DARPA Manta project during a critical integration phase, enabling continued progress during an all-hands-on-deck effort.
 
 <small>**Media Credits**</small>  
 <small>1 - _YouTube: Navy STP - https://www.youtube.com/watch?v=VljZtT9jvrw_</small>  

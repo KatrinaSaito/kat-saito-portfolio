@@ -8,6 +8,11 @@ body {
   overflow-x: hidden;
 }
 
+// Scale the base font size: set html to 80% so rem-based sizing shrinks everything
+html {
+  font-size: 100%;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -137,7 +142,7 @@ body {
 
 .content {
   @include breakpoint(break-1) {
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -147,8 +152,8 @@ body {
 
 .aside {
   @include breakpoint(break-1) {
-    max-width: 26%;
-    margin-left: 4%;
+    max-width: 18%;
+    margin-left: 2%;
     @include flex(1, 0, auto);
     opacity: 0.5;
     transition: opacity .1s;
