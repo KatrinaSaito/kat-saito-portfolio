@@ -15,7 +15,7 @@ My background is in mechanical engineering with a focus on control systems and s
 # Experience Highlights
 
 - Led electrical design (power distribution, sensor fusion)
-- Led software design in control systems and C++
+- Led software design (control systems, user interfaces, C++)
 - Integrated electrical, mechanical, and software subsystems into a cohesive system
 - Designed and fabricated components in-house (SOLIDWORKS, 3D printing, shop drawings, wiring diagrams)
 - Integrated sensors and communication interfaces (CAN bus/J1939, TCP/IP, serial, PWM)
