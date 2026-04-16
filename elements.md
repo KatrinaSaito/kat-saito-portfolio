@@ -98,7 +98,8 @@ blockquote.innerHTML = bolden("Mr. Sullivan", blockquote.innerHTML)
 
 {% include button.html text="A button" link="https://david.darn.es" %}
 
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}
+{%- comment -%} Twitter button removed per request - keep only LinkedIn
+{%- endcomment -%}
 
 ``` html
 {% raw %}{% include button.html text="A button" link="https://david.darn.es" %}
@@ -107,11 +108,12 @@ blockquote.innerHTML = bolden("Mr. Sullivan", blockquote.innerHTML)
 
 ### Icon include
 
-{% include icon.html id="twitter" title="twitter" %} [{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes)
+{%- comment -%} Twitter icon removed per request {%- endcomment -%}
+[{% include icon.html id="linkedin" title="LinkedIn" %}](https://www.linkedin.com/in/katrina-saito)
 
 ``` html
 {% raw %}{% include icon.html id="twitter" title="twitter" %}
-[{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes){% endraw %}
+[{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/katrina-saito){% endraw %}
 ```
 
 ### Video include

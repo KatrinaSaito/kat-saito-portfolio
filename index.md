@@ -1,93 +1,63 @@
 ---
-title: About Alembic
+title: About Me
 feature_text: |
-  ## Alembic
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
-feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+  ## Katrina Saito
+  Mechatronics engineer specializing in electrical systems, sensor fusion, and system integration, from design through deployment.
+feature_image: "/public/images/20250212_082033.jpg"
+excerpt: "I take systems from concept to physical implementation through rapid prototyping, working across electrical, mechanical, and software domains."
 ---
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it.
+I take systems from concept to physical implementation through rapid prototyping, working across electrical, mechanical, and software domains.
 
-{% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Buy me a coffee ☕️" link="https://buymeacoffee.com/daviddarnes#support" color="#f68140" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %}
+My background is in mechanical engineering with a focus on control systems and sensor integration, and my work spans marine R&D, prototyping, and multidisciplinary system development.
 
-## Features
+# Experience Highlights
 
-- Available as a **theme gem** and **GitHub Pages** theme
-- Clear and elegant design that can be used out of the box or as solid starting point
-- Tested in all major browsers, including **IE and Edge**
-- Built in **Service Worker** so it can work offline and on slow connections
-- **Configurable colours** and typography in a single settings file
-- Extensive set of **shortcodes** to include various elements; such as buttons, icons, figure images and more
-- Solid **typographic framework** from [Sassline](https://sassline.com/)
-- Configurable navigation via a single file
-- Modular Jekyll components
-- Post category support in the form of a single post index page grouped by category
-- Built in live search using JavaScript
-- **Contact form** built in using [Formspree](https://formspree.io/)
-- Designed with **[Siteleaf](https://www.siteleaf.com/)** in mind
-- Has 9 of the most popular networks as performant sharing buttons
-- Has documentation
+- Led electrical design (power distribution, sensor fusion)
+- Led software design in control systems and C++
+- Integrated electrical, mechanical, and software subsystems into a cohesive system
+- Designed and fabricated components in-house (SOLIDWORKS, 3D printing, shop drawings, wiring diagrams)
+- Integrated sensors and communication interfaces (CAN bus/J1939, TCP/IP, serial, PWM)
+- Performed electrical assembly including wire harnessing, cable potting, and connector terminations
+- Managed BOM, component selection, sourcing, and procurement
+- Developed and executed system-level validation and test procedures
+- Conducted field testing and resolved system-level faults in deployment environments
+- Coordinated with cross-functional teams and vendors during system development
 
-## Examples
+# Project Highlights
 
-Here are a few examples of Alembic out in the wild being used in a variety of ways:
+Some of the publicly-available information on the projects I've contributed to:
 
-- [bawejakunal.github.io](https://bawejakunal.github.io/)
-- [case2111.github.io](https://case2111.github.io/)
-- [karateca.org](https://www.karateca.org/)
+#### Caddie - Lead Mechatronics Engineer
 
-## Installation
+Caddie is a portable, remotely operated UUV launch and recovery (L&R) system designed to eliminate the need for dive teams during operations. It is capable of surface and subsea operation and enables safe recovery in sea state 3+ with minimal risk to operators.
 
-### Quick setup
+<img src="/public/images/caddie_render.png" alt="Caddie Render" class="caddie-render">
+<p><small>CAD Rendering - Caddie L&R Platform <sup>1</sup></small></p>
 
-To give you a running start I've put together some starter kits that you can download, fork or even deploy immediately:
+[View detailed contributions →](/caddie-project/)
 
-- ⚗️🍨 Vanilla Jekyll starter kit  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit){:style="background: none"}
-- ⚗️🌲 Forestry starter kit  
-  [![Deploy to Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=daviddarnes/alembic-forestry-kit&engine=jekyll){:style="background: none"}  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-forestry-kit){:style="background: none"}
-- ⚗️💠 Netlify CMS starter kit  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-netlifycms-kit&stack=cms){:style="background: none"}
+#### SALT - Mechatronics Engineer
 
-- ⚗️:octocat: GitHub Pages with remote theme kit  
-  {% include button.html text="Download kit" link="https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip" color="#24292e" %}
-- ⚗️🚀 Stackbit starter kit  
-  [![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/daviddarnes/alembic-stackbit-kit){:style="background: none"}
+SALT is a self-powered raft designed to traverse waterways autonomously and link together to facilitate water crossings for ground vehicles and personnel. 
 
-### As a Jekyll theme
+<img src="/public/images/salt_render.jpg" alt="SALT Render" class="salt-render">
+<p><small>CAD Rendering - SALT Platform <sup>2</sup></small></p>
 
-1. Add `gem "alembic-jekyll-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the theme and its dependancies
-3. Add `theme: alembic-jekyll-theme` to your `_config.yml` file to set the site theme
-4. Run `bundle exec jekyll serve` to build and serve your site
-5. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
+As a mechatronics engineer, I led software engineering for SALT's control systems and developed mechanical and electrical systems, including ramp actuators, power system, control system, and sensor packages. 
 
-### As a GitHub Pages remote theme
+#### Manta - Software Engineer
 
-1. Add `gem "jekyll-remote-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-3. Add `jekyll-remote-theme` to the list of `plugins` in your `_config.yml` file
-4. Add `remote_theme: daviddarnes/alembic@main` to your `_config.yml` file to set the site theme
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
+As a part of DARPA's Manta project, PacMar Technologies researched and developed novel energy management techniques to facilitate UUV operations, with an emphasis on efficiency and subsea operations.
 
-### As a Boilerplate / Fork
+<img src="/public/images/manta_testing.jpg" alt="Manta Testing Photo" class="manta-photo">
+<p><small>Manta Prototype Testing <sup>3</sup></small></p>
 
-_(deprecated, not recommended)_
+Contributed to software development for the DARPA Manta project during a critical integration phase, enabling continued progress during an all-hands-on-deck effort.
 
-1. [Fork the repo](https://github.com/daviddarnes/alembic#fork-destination-box)
-2. Replace the `Gemfile` with one stating all the gems used in your project
-3. Delete the following unnecessary files/folders: `.github`, `LICENSE`, `screenshot.png`, `CNAME` and `alembic-jekyll-theme.gemspec`
-4. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
+<small>**Media Credits**</small>  
+<small>1 - _YouTube: Navy STP - https://www.youtube.com/watch?v=VljZtT9jvrw_</small>  
+<small>2 - _LinkedIn: U.S. Army DEVCOM Ground Vehicle Systems Center - https://www.linkedin.com/posts/devcom-ground-vehicle-systems-center_were-proud-to-share-progress-on-an-innovative-activity-7431722291262214145-KLGd_</small>  
+<small>3 - _DARPA Official News - https://www.darpa.mil/news/2023/manta-ray-prototype-tests_</small> 
 
-## Customising
-
-When using Alembic as a theme means you can take advantage of the file overriding method. This allows you to overwrite any file in this theme with your own custom file, by matching the file name and path. The most common example of this would be if you want to add your own styles or change the core style settings.
-
-To add your own styles copy the [`styles.scss`](https://github.com/daviddarnes/alembic/blob/master/assets/styles.scss) into your own project with the same file path (`assets/styles.scss`). From there you can add your own styles, you can even optionally ignore the theme styles by removing the `@import "alembic";` line.
-
-If you're looking to set your own colours and fonts you can overwrite them by matching the variable names from the [`_settings.scss`](https://github.com/daviddarnes/alembic/blob/master/_sass/_settings.scss) file in your own `styles.scss`, make sure to state them before the `@import "alembic";` line so they take effect. The settings are a mixture of custom variables and settings from [Sassline](https://medium.com/@jakegiltsoff/sassline-v2-0-e424b2881e7e) - follow the link to find out how to configure the typographic settings.
+<small>All content on this page is sourced from publicly released materials.</small>

@@ -6,9 +6,24 @@
     </section>
 
   {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
-    <section class="section  section--description">
-      <h3>About this site</h3>
-      <p>{{ site.description }}</p>
+    <section class="section  section--contact">
+      <h3>Contact Me</h3>
+      {% comment %} Prefer structured page-level contact fields, then site-level fields, then freeform contact. Output compact lines with reduced spacing. {% endcomment %}
+      <div class="contact-block">
+        {% if page.contact_name or page.contact_email or page.contact_location %}
+          {% if page.contact_name %}<p class="contact-line"><strong>{{ page.contact_name }}</strong></p>{% endif %}
+          {% if page.contact_email %}<p class="contact-line"><a href="mailto:{{ page.contact_email }}">{{ page.contact_email }}</a></p>{% endif %}
+          {% if page.contact_location %}<p class="contact-line">{{ page.contact_location }}</p>{% endif %}
+        {% elsif site.contact_name or site.contact_email or site.contact_location %}
+          {% if site.contact_name %}<p class="contact-line"><strong>{{ site.contact_name }}</strong></p>{% endif %}
+          {% if site.contact_email %}<p class="contact-line"><a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>{% endif %}
+          {% if site.contact_location %}<p class="contact-line">{{ site.contact_location }}</p>{% endif %}
+        {% elsif page.contact %}
+          <div class="contact-block-content">{{ page.contact | newline_to_br }}</div>
+        {% else %}
+          <div class="contact-block-content">{{ site.contact | markdownify }}</div>
+        {% endif %}
+      </div>
       {% include nav-social.html %}
     </section>
 

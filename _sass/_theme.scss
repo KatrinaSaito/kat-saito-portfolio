@@ -137,7 +137,7 @@ body {
 
 .content {
   @include breakpoint(break-1) {
-    width: 62%;
+    width: 70%;
   }
 }
 
@@ -147,7 +147,7 @@ body {
 
 .aside {
   @include breakpoint(break-1) {
-    max-width: 34%;
+    max-width: 26%;
     margin-left: 4%;
     @include flex(1, 0, auto);
     opacity: 0.5;
@@ -223,6 +223,17 @@ a .icon {
 img {
   max-width: 100%;
   height: auto;
+}
+
+/* Resume preview styling */
+.resume-preview {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 0 .8rem 0;
+  border: 1px solid #e6e6e6; /* light gray */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-radius: 4px;
 }
 
 .figure {
@@ -454,4 +465,36 @@ pre code {
     white-space: pre;
     overflow-x: scroll;
   }
+}
+
+// Compact contact lines in the aside
+.section--contact {
+  .contact-line {
+    margin: 0 0 .1rem 0;
+    line-height: 1.2;
+  }
+  .contact-block-content p {
+    margin: 0 0 .1rem 0;
+    line-height: 1.2;
+  }
+  .contact-block-content a {
+    display: inline-block;
+    margin-bottom: .25rem;
+  }
+}
+
+/* Tighten spacing for caddie images and their captions */
+.caddie-render,
+.caddie-demo {
+  display: block;
+  margin: 0 0 .2rem 0; /* tighter gap below image */
+}
+img.caddie-render + small,
+img.caddie-demo + small,
+.caddie-render + small,
+.caddie-demo + small {
+  display: block;
+  margin-top: 0; /* remove extra gap above caption */
+  margin-bottom: .6rem; /* caption spacing after the small element */
+  font-size: .95em;
 }
