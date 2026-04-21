@@ -1,5 +1,7 @@
 <!-- Vercel Web Analytics -->
 <script type="module">
-  import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@2/dist/index.js';
-  inject();
+  // The CDN bundle does not provide a named ESM export for `inject`.
+  // Import the module namespace and call `inject()` from it.
+  import * as analytics from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@2/dist/index.js';
+  analytics.inject();
 </script>
