@@ -55,7 +55,8 @@
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
-    <script defer src="/<unique-path>/script.js"></script>
+    {%- assign vercel_path = site.vercel_script_path | default: '/_vercel/insights/script.js' -%}
+    <script defer src="{{ vercel_path }}"></script>
     {% include site-before-end.html %}
   </body>
 

@@ -111,6 +111,11 @@ contact_location: "Los Angeles, CA"
 # short_name: "Al" # The web application short name, defaults to the site title
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
+# Optional: override the Vercel Web Analytics script path if your project was given
+# a unique script path. If not set, the layout will default to '/_vercel/insights/script.js'.
+# Example:
+# vercel_script_path: "/<your-unique-path>/script.js"
+
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
   16: '/assets/logos/logo@16px.png'
