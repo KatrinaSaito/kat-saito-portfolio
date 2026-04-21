@@ -6,6 +6,7 @@ feature_text: |
 feature_image: "/public/images/20250212_082033.jpg"
 excerpt: "I take systems from concept to physical implementation through rapid prototyping, working across electrical, mechanical, and software domains."
 indexing: false
+aside: true
 ---
 
 I take systems from concept to physical implementation through rapid prototyping, working across electrical, mechanical, and software domains.
