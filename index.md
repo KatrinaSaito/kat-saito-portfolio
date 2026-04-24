@@ -38,6 +38,10 @@ Caddie is a portable, remotely operated UUV launch and recovery (L&R) system des
 <img src="/public/images/caddie_render.png" alt="Caddie Render" class="caddie-render">
 <p><small>CAD Rendering - Caddie L&R Platform <sup>1</sup></small></p>
 
+As the lead mechatronics engineer for Caddie, I led end-to-end development of electrical and software subsystems, including design, assembly, integration, and validation. This work included developing sensor and control systems built for subsea environments, diagnosing and resolving system-level faults during field testing and deployment, and the production and management of subsystem documentation.
+
+The Caddie system now has a patent pending, and has been presented at several customer demonstrations and defense tech expositions. The system has generated interest from several end-users for scaled production and further development.
+
 [View detailed contributions →](/caddie-project/)
 
 #### SALT - Mechatronics Engineer

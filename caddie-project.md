@@ -23,7 +23,7 @@ Caddie is modular and scalable, allowing it to be modified for different UUV for
 
 ## Impact
 
-The Caddie L&R system has been patented and successfully demonstrated at technical events and customer evaluations in operational marine environments. The platform has generated interest from multiple end-users for further development and deployment.
+The Caddie system now has a patent pending, and has been presented at several customer demonstrations and defense tech expositions. The system has generated interest from several end-users for scaled production and further development.
 
 ## Lead Mechatronics Engineer - Caddie
 
